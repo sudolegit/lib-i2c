@@ -1,6 +1,5 @@
 # MPLAB 8:
 build
-latex
 *.mcs
 *.mcw
 *.mptags
@@ -13,4 +12,11 @@ latex
 *.X/nbproject/*
 !*.X/nbproject/configurations.xml
 !*.X/nbproject/project.xml
+
+# Python:
+*.pyo
+*.pyc
+
+# Documentation:
+latex
 
