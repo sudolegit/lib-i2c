@@ -1,6 +1,16 @@
+# MPLAB 8:
 build
 latex
 *.mcs
 *.mcw
 *.mptags
 *.tagsrc
+
+# MPLAB X:
+*.X/*
+!*.X/Makefile
+!*.X/nbproject/
+*.X/nbproject/*
+!*.X/nbproject/configurations.xml
+!*.X/nbproject/project.xml
+
