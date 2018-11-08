@@ -1,7 +1,7 @@
 # Background
 
 The 'I2C Library' provides a simple I2C implementation for the following platform(s):
-    * PIC32MX
+* PIC32MX
 
 
 <br/><br/>
