@@ -1,0 +1,13 @@
+digraph "I2C_StopTransfer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node31 [label="I2C_StopTransfer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="I2C_Transmit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#a4913cc2a08031f38a0a396b20e7d552c",tooltip="Transmit the identifier + requested data out over I2C. "];
+  Node31 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="I2C_Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#a7dd101b0896d33d24748ee155fb4b2a3",tooltip="Read data from the. "];
+  Node31 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="I2C_TxRx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#a25e3863f83b01bc96b9788c045bd5d56",tooltip="Handle a combined write + read process over I2C to a target device. "];
+}

@@ -1,0 +1,16 @@
+digraph "I2C_Transmit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="I2C_Transmit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="I2C_StartTransfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#a01cfbcaab1fb1d818fbe26109d9dd087",tooltip="Set start condition for I2C bus. "];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="I2C_SendAddr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#aa8c6a720c14c9d481945c51dbf6ae07a",tooltip="Transmits the address to a target with the appropriate read/write bit set. "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="I2C_SendByte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#a069cdc2bec983c627606ee4ef52d6155",tooltip="Send a single byte of data. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="I2C_StopTransfer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$i2c_8c.html#a0f251044af22435f4028967ecf838053",tooltip="Set stop condition for I2C bus. "];
+}
