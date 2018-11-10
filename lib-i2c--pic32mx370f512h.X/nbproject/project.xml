@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>lib-i2c--pic32mx795f512l</name>
+            <name>lib-i2c--pic32mx370f512h</name>
             <creation-uuid>d1bf880a-3b63-4a1a-865c-b8de6e2ae7d5</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
